@@ -5,32 +5,95 @@
         <link href="style.css" rel="stylesheet">
         <script src="index.js" defer></script>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Truculenta:opsz,wght@12..72,100..      900&display=swap" rel="stylesheet">
     </head>
     <body>
         <header>
             <nav>
-                <div class="logo">
-                    <span class="black">L</span><span class="semi-bold">E</span><span class="light">A</span><span class="thin">H</span>
-                    <span class="black">C</span><span class="bold">O</span><span class="semi-bold">E</span><span class="regular">L</span><span class="extra-light">H</span><span class="thin">O</span>
-                </div>
+                <div class="logo">LEAH COELHO</div>
                 <ul>
-                    <li><a href="about">About</a></li>
-                    <li><a href="work">Work</a></li>
-                    <li><a href="contact">Contact</a></li>
+                    <li><a href="#home">home</a></li>
+                    <li><a href="#about">about</a></li>
+                    <li><a href="#work">work</a></li>
+                    <li><a href="#footer">contact</a></li>
                 </ul>
             </nav>
         </header>
-        <main class="container">
-            <section>
-                <h1></h1>
+        <main class="site-container">
+            <section id="home">
+                <h4>Ahhh, finally...</h4>
+                <h1 class="hero-title">
+                    Design that feels just right.</h1>
+                <h3>YOUR HOME FOR VISUAL HARMONY</h3>
+                <button>VIEW WORK</button>
             </section>
 
+            <section id="about">
+                <div class="about-container">
+                    <div class="left">
+                        <figure> <img src="./photos/aboutPortrait.png" alt="Description" width="535px" height="542"></figure>
+                    </div>
+                    <div class="right">
+                        <h2>HI, I'm Leah</h2>
+                        <h5>As an intuitive designer, I find joy in transforming abstract concepts into tangible, visual experiences.</h5>
+                        <p>I enjoy the design process more than I'd like to admit, as I tend to lose sleep over being too wrapped-up in what I'm working on. However, I wouldn't trade my creative spontaneity for anything, as it has been the backbone of my most successful project yet: Jaws, Claws and Soft Paws!</p>
+                    </div>
+                </div>
+            </section>
+            <section id="work">
+                <h1 class="gallery-title">THE PROJECT GALLERY</h1>
+                    <div id="work-container">
+                        <section class="project">
+                            <figure> <img src="./photos/projectCardGame.jpeg" alt="Description" width="291" height="196"></figure>
+                            <div class="project-text">
+                                <h3>Jaws, Claws and Soft Paws</h3>
+                                <h5>A playful, 52-card strategy game of stealth, trust and deceit...with CATS!</h5>
+                                <button>GAME DESIGN</button>
+                                <button>PACKAGE DESIGN</button>
+                                <button>PRINT DESIGN</button>
+                                <button>BRAND IDENTITY</button>
+                            </div>
+                        </section>
+                         <section class="project">
+                            <figure><img src="./photos/projectExhibition.png" alt="Description" width="291" height="196"></figure>
+                            <div class="project-text">
+                                <h3>2024 Senior Art Exhibition</h3>
+                                <h5>The marketing roll-out of print and digital media for the Eastern CT State University Art Gallery Showcase.</h5>
+                                <button>PRINT DESIGN</button>
+                                <button>DIGITAL DESIGN</button>
+                                <button>LAYOUT DESIGN</button>
+                            </div>
+                        </section>
+                         <section class="project">
+                            <figure><img src="./photos/projectChurch.png" alt="Description" width="291" height="196"></figure>
+                            <div class="project-text">
+                                <h3>Nea Zoe Mill Plain Church</h3>
+                                <h5>The re-branding of a religious organization, aiming to inspire transformation & rebirth.</h5>
+                                <button>BRAND IDENTITY</button>
+                                <button>LOGO DESIGN</button>
+                            </div>
+                        </section>
+                    </div>
+            </section>
+            <section id="action">
+                <h2><span class="highlight-white">Is it just me...</span><span class="highlight-lime">or are you feeling the creative synergy between us?</span></h2>
+                <button>LET'S CONNECT</button>
+            </section>
         </main>
-        <footer>
-
+        <footer id="footer">
+            <div class="footer-container">
+                <section class="footer-contact">
+                    <h3>Contact</h3>
+                    <h5>lcoelho142@gmail.com</h5>
+                    <h5>+1 (203) 558&hyphen;8760</h5>
+                </section>
+                <section class="footer-socials">
+                    <h3>Socials</h3>
+                    <h5>LinkedIn</h5>
+                    <h5>Instagram</h5>
+                </section>
+                <figure><img src="./photos/footerImg.png" alt="Description" width="200" height="auto"></figure>
+            </div>
+            <h6 class="copywriting">copywriting text</h6>
         </footer>
     </body>
 </html>
